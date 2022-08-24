@@ -8,10 +8,32 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Spatial",
+"class": "TimeTravelObject",
+"language": "GDScript",
+"path": "res://TimeTravelObjects/TimeTravelObject.gd"
+}, {
+"base": "TimeTravelObject",
+"class": "TimeTravelTransitionObject",
+"language": "GDScript",
+"path": "res://TimeTravelObjects/TimeTravelTransitionObject.gd"
+}, {
+"base": "Spatial",
+"class": "TransitionObject",
+"language": "GDScript",
+"path": "res://TimeTravelObjects/TransitionObject.gd"
+} ]
+_global_script_class_icons={
+"TimeTravelObject": "",
+"TimeTravelTransitionObject": "",
+"TransitionObject": ""
+}
+
 [application]
 
 config/name="Time Travel Shader"
-run/main_scene="res://TimeTravelDemo.tscn"
+run/main_scene="res://DemoSetup/TestDemo.tscn"
 config/icon="res://icon.png"
 
 [gui]

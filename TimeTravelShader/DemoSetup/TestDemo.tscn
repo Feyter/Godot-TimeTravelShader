@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://DemoSetup/TimeTravelTransitionPillar.tscn" type="PackedScene" id=1]
+
+[sub_resource type="SphereShape" id=1]
+radius = 2.09596
+
+[node name="TestDemo" type="Spatial"]
+
+[node name="TimeTravelransitionPillar" parent="." instance=ExtResource( 1 )]
+controllTargetPath = NodePath("../TmeArea")
+
+[node name="TmeArea" type="Area" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.50081, 0.426657, 0 )
+
+[node name="CollisionShape" type="CollisionShape" parent="TmeArea"]
+shape = SubResource( 1 )
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 0.791565, 0, 0.611085, 0, 1, 0, -0.611085, 0, 0.791565, 3.63473, 1.43295, 4.95047 )

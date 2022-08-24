@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/PillarOldNormal.png-e5b06d5b89d47914463006b470362e25.s3tc.stex"
-path.etc2="res://.import/PillarOldNormal.png-e5b06d5b89d47914463006b470362e25.etc2.stex"
+path.s3tc="res://.import/PillarOldNormal.png-3f1877eefa780c6443747aa76f67b97f.s3tc.stex"
+path.etc2="res://.import/PillarOldNormal.png-3f1877eefa780c6443747aa76f67b97f.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://PillarOldNormal.png"
-dest_files=[ "res://.import/PillarOldNormal.png-e5b06d5b89d47914463006b470362e25.s3tc.stex", "res://.import/PillarOldNormal.png-e5b06d5b89d47914463006b470362e25.etc2.stex" ]
+source_file="res://Resources/PillarOldNormal.png"
+dest_files=[ "res://.import/PillarOldNormal.png-3f1877eefa780c6443747aa76f67b97f.s3tc.stex", "res://.import/PillarOldNormal.png-3f1877eefa780c6443747aa76f67b97f.etc2.stex" ]
 
 [params]
 

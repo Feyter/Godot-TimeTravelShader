@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://TimeTravelObjects/TimeTravelTransitionObject.gd" type="Script" id=1]
+[ext_resource path="res://DemoSetup/PillarNewTransitionObject.tscn" type="PackedScene" id=2]
+[ext_resource path="res://DemoSetup/PillarOldTransitionObject.tscn" type="PackedScene" id=3]
+
+[node name="TimeTravelransitionPillar" type="Spatial"]
+script = ExtResource( 1 )
+oldObjectPath = NodePath("PillarOldWithInner")
+newObjectPath = NodePath("PillarNewWithInner")
+
+[node name="PillarNewWithInner" parent="." instance=ExtResource( 2 )]
+
+[node name="PillarOldWithInner" parent="." instance=ExtResource( 3 )]
