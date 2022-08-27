@@ -25,7 +25,7 @@ How it works:
 
 <br>
 
-- Insert newly created TimeTravelTransitionObject into any scenen and create a area wih an shper collision shape
+- Insert newly created TimeTravelTransitionObject into any scenen and create a area with an sphere collision shape
 - select the TimeTravelTransition object and assign the area as controll in inspector
   - make sure to set run in edito if you want changes to be visible in edito (maybe needs to reload the scene)
 - you can move the area or scale the collision shape and the new object should disappear and the old one will appear
