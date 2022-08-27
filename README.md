@@ -4,6 +4,9 @@ Example project for a shader implementing a time travel effect
 **DISCLAIMER**:
 This is just a quick and dirty prototype for proof of concept ;)
 
+Find more interessting stuff on my youtube channel
+https://www.youtube.com/channel/UCZp_or3u7ptTTIVkFEnWRsQ/featured 
+
 What you need:
 - tow objects (one new and one old)
 - for each object you need a regular mesh and a sligthly down scaled version with inverted faces for illusion of volum
